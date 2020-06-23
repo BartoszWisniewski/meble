@@ -1,0 +1,39 @@
+
+
+
+
+
+/* To co ma być niewidoczne */
+/* 1024px */
+@media (min-width: 1000px) {
+    div.smallMenu {
+      display: none;
+    }
+  }
+  
+  /* 1023px */
+  @media (max-width: 999px) {
+    div.bigMenu {
+      display: none;
+    }
+  }
+  
+
+
+
+
+/* Media queries */
+/* Rozmiar elementów dla przeglądarki do szerokości 450px */
+@media (max-width: 450px) {
+}
+
+
+
+/* Rozmiar elementów dla przeglądarki do szerokości 1155px */
+@media (min-width: 451px) and (max-width: 1155px) {
+}
+
+
+/* Rozmiar elementów dla przeglądarki powyżej szerokości 1155px */
+@media (min-width: 1155px) {
+}
